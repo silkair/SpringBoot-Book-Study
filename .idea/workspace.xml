@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c1ee7c-5065-465b-b7e7-3b302653993b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/repository/ArticleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/dto/ArticleForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/dto/ArticleForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1731326150810" duration="235000" />
       <workItem from="1731326412717" duration="4499000" />
       <workItem from="1731335359805" duration="684000" />
-      <workItem from="1731336122128" duration="4926000" />
+      <workItem from="1731336122128" duration="5397000" />
     </task>
     <servers />
   </component>
