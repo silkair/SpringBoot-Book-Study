@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c1ee7c-5065-465b-b7e7-3b302653993b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/firstproject/src/main/resources/static/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/controller/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstproject/src/main/resources/templates/greeting.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +55,10 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.Build firstproject.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.FirstprojectApplication.executor": "Run",
     "git-widget-placeholder": "firstproject#1",
@@ -121,7 +125,7 @@
       <workItem from="1731325639958" duration="304000" />
       <workItem from="1731325976745" duration="145000" />
       <workItem from="1731326150810" duration="235000" />
-      <workItem from="1731326412717" duration="1117000" />
+      <workItem from="1731326412717" duration="1676000" />
     </task>
     <servers />
   </component>
