@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c1ee7c-5065-465b-b7e7-3b302653993b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstproject/src/main/resources/static/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,7 +53,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build firstproject.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.FirstprojectApplication.executor": "Run",
     "git-widget-placeholder": "firstproject#1",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-21",
@@ -67,7 +73,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstprojectApplication">
+  <component name="RunManager" selected="Spring Boot.FirstprojectApplication">
     <configuration name="FirstprojectApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.firstproject.FirstprojectApplication" />
       <extension name="coverage">
@@ -115,7 +121,7 @@
       <workItem from="1731325639958" duration="304000" />
       <workItem from="1731325976745" duration="145000" />
       <workItem from="1731326150810" duration="235000" />
-      <workItem from="1731326412717" duration="492000" />
+      <workItem from="1731326412717" duration="1117000" />
     </task>
     <servers />
   </component>
