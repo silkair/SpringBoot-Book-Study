@@ -8,7 +8,7 @@ public class ArticleForm {
         this.title = title;
         this.content = content;
     }
-    //데이터를 잘 받았는지 확인할 toString() 메서드 추가
+    //데이터를 잘 받았는지 확인할 toString()
     @Override
     public String toString() {
         return "ArticleForm{" +
