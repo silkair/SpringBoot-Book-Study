@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c1ee7c-5065-465b-b7e7-3b302653993b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/firstproject/src/main/resources/templates/articles/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstproject/src/main/resources/templates/articles/show.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstproject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/src/main/java/com/example/firstproject/repository/ArticleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,23 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="firstproject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="firstproject" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="firstproject" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -54,32 +73,33 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.Build firstproject.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.FirstprojectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;firstproject#1&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Jin/SpringBoot-Book-Study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build firstproject.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.FirstprojectApplication.executor": "Run",
+    "git-widget-placeholder": "firstproject#1",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Jin/SpringBoot-Book-Study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.firstproject.entity" />
@@ -135,7 +155,10 @@
       <workItem from="1731326150810" duration="235000" />
       <workItem from="1731326412717" duration="4499000" />
       <workItem from="1731335359805" duration="684000" />
-      <workItem from="1731336122128" duration="5397000" />
+      <workItem from="1731336122128" duration="5645000" />
+      <workItem from="1731583786572" duration="1504000" />
+      <workItem from="1731932940893" duration="20000" />
+      <workItem from="1732005344075" duration="5218000" />
     </task>
     <servers />
   </component>
